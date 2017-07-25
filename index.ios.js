@@ -15,7 +15,7 @@ import {
     TouchableOpacity,
     Alert,
     ListView,
-} from 'react-native'; 
+} from 'react-native';
 var NativeBridge = NativeModules.OCvsRN;
 const NativeModule = new NativeEventEmitter(NativeBridge);
 export default class OC_VS_RN extends Component {
@@ -35,15 +35,6 @@ export default class OC_VS_RN extends Component {
 
     componentDidMount() {
         let context = this;
-        // var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-        NativeModule.addListener(
-            'fetchDocList',
-            (data) => {
-                context.setState({
-                    docList: new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2}).cloneWithRows(data),
-                })
-            }
-        );
         NativeModule.addListener(
             'fetchUUID',
             (data) => {
@@ -53,7 +44,16 @@ export default class OC_VS_RN extends Component {
             }
         );
         NativeModule.addListener(
-            'musicStatus',
+            'docListSendToRN',
+            (data) => {
+                context.setState({
+                    docList: new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2}).cloneWithRows(data),
+                })
+            }
+        );
+
+        NativeModule.addListener(
+            'musicStatusSendToRN',
             (data) => {
                 context.setState({
                     musicStatus: data,
@@ -61,7 +61,7 @@ export default class OC_VS_RN extends Component {
             }
         );
         NativeBridge.fetchUUID()
-        NativeBridge.fetchDocList()
+        NativeBridge.ocFuncFetchDocList()
     }
 
     render() {
@@ -77,7 +77,7 @@ export default class OC_VS_RN extends Component {
                 <Text style={styles.text}>{context.state.uniqueID}</Text>
                 <TouchableOpacity
                     onPress={() => {
-                        NativeBridge.playMusic()
+                        NativeBridge.ocFuncPlayMusic()
                     }}>
                     <Text style={styles.text}>
                         Play Music
@@ -85,7 +85,7 @@ export default class OC_VS_RN extends Component {
                 </TouchableOpacity>
                 <TouchableOpacity
                     onPress={() => {
-                        NativeBridge.playOrPause()
+                        NativeBridge.ocFuncPlayOrPause()
                     }}>
                     <Text style={styles.text}>
                         {parseInt(context.state.musicStatus) == 1 ? "暂停" : "播放"}
@@ -112,7 +112,7 @@ export default class OC_VS_RN extends Component {
                             style={styles.listContainer}
                             onPress={
                                 () => {
-                                    NativeBridge.openDoc(rowData)
+                                    NativeBridge.ocFuncOpenDoc(rowData)
                                 }
                             }
                         >

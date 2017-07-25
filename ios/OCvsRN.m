@@ -19,11 +19,12 @@ RCT_EXPORT_MODULE();
 -(NSArray<NSString *> *)supportedEvents {
   return @[
             @"fetchUUID",
-            @"fetchDocList",
-            @"playMusic",
-            @"playOrPause",
-            @"openDoc",
-            @"musicStatus",
+            @"ocFuncFetchDocList",
+            @"ocFuncPlayMusic",
+            @"ocFuncPlayOrPause",
+            @"ocFuncOpenDoc",
+            @"musicStatusSendToRN",
+            @"docListSendToRN",
            ];
 }
 
@@ -43,33 +44,33 @@ RCT_EXPORT_METHOD(fetchUUID) {
     [self sendEventWithName:@"fetchUUID" body:token];
   });
 }
-RCT_EXPORT_METHOD(fetchDocList) {
+RCT_EXPORT_METHOD(ocFuncFetchDocList) {
   NSMutableArray *dataSource=[NSMutableArray new];
   [dataSource addObject:@"pdf.pdf"];
   [dataSource addObject:@"doc.doc"];
   [dataSource addObject:@"ppt.ppt"];
   [dataSource addObject:@"pptx.pptx"];
   dispatch_async(dispatch_get_main_queue(), ^{
-    [self sendEventWithName:@"fetchDocList" body:dataSource];
+    [self sendEventWithName:@"docListSendToRN" body:dataSource];
   });
 }
-RCT_EXPORT_METHOD(playMusic) {
+RCT_EXPORT_METHOD(ocFuncPlayMusic) {
   dispatch_async(dispatch_get_main_queue(), ^{
     [[LEMusicPlayer sharedInstance] playWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"mp3.mp3" ofType:nil]]];
-    [self sendEventWithName:@"musicStatus" body:[LEMusicPlayer sharedInstance].isPlaying?@"1":@"0"];
+    [self sendEventWithName:@"musicStatusSendToRN" body:[LEMusicPlayer sharedInstance].isPlaying?@"1":@"0"];
   });
 }
-RCT_EXPORT_METHOD(playOrPause) {
+RCT_EXPORT_METHOD(ocFuncPlayOrPause) {
   if([LEMusicPlayer sharedInstance].isPlaying){
     [[LEMusicPlayer sharedInstance] pause];
   }else{
     [[LEMusicPlayer sharedInstance] play];
   }
   dispatch_async(dispatch_get_main_queue(), ^{
-    [self sendEventWithName:@"musicStatus" body:[LEMusicPlayer sharedInstance].isPlaying?@"1":@"0"];
+    [self sendEventWithName:@"musicStatusSendToRN" body:[LEMusicPlayer sharedInstance].isPlaying?@"1":@"0"];
   });
 }
-RCT_EXPORT_METHOD(openDoc:(NSString *) doc) {
+RCT_EXPORT_METHOD(ocFuncOpenDoc:(NSString *) doc) {
   LELogObject(doc)
   dispatch_async(dispatch_get_main_queue(), ^{
     [[QLPreviewManager sharedInstance] openDoc:doc];

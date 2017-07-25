@@ -25,12 +25,8 @@ PODS:
   - UICKeyChainStore (2.1.1)
 
 DEPENDENCIES:
-  - LEUIMaker (from `../../../RemoteGits/LEUIMaker`)
+  - LEUIMaker
   - UICKeyChainStore
-
-EXTERNAL SOURCES:
-  LEUIMaker:
-    :path: "../../../RemoteGits/LEUIMaker"
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -39,6 +35,6 @@ SPEC CHECKSUMS:
   LEUIMaker: d71205febcc0683db63d8095dee410327e269066
   UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
 
-PODFILE CHECKSUM: ce77bf7872746c9681adb31762a86aa993c0e3ab
+PODFILE CHECKSUM: 950d9978ce959a3acd7c5cf96da745fdeee6e87c
 
 COCOAPODS: 1.2.1

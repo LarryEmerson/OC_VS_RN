@@ -23,6 +23,7 @@
 		800BE3571F26F1B200A82554 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BE3521F26F1B200A82554 /* AppDelegate.m */; };
 		800BE3581F26F1B200A82554 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BE3531F26F1B200A82554 /* main.m */; };
 		800BE3591F26F1B200A82554 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 800BE3541F26F1B200A82554 /* Info.plist */; };
+		800BE3951F27156400A82554 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 800BE3941F27156400A82554 /* Podfile */; };
 		8018D5C81F25E1090074D9B8 /* OCvsRN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8018D5C71F25E1090074D9B8 /* OCvsRN.m */; };
 		8018D5E51F25E3DE0074D9B8 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 8018D5E41F25E3DE0074D9B8 /* index.ios.js */; };
 		8018D5E81F25F9990074D9B8 /* LEMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8018D5E71F25F9990074D9B8 /* LEMusicPlayer.m */; };
@@ -236,6 +237,7 @@
 		800BE3521F26F1B200A82554 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OC_VS_RN/AppDelegate.m; sourceTree = "<group>"; };
 		800BE3531F26F1B200A82554 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OC_VS_RN/main.m; sourceTree = "<group>"; };
 		800BE3541F26F1B200A82554 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OC_VS_RN/Info.plist; sourceTree = "<group>"; };
+		800BE3941F27156400A82554 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		8018D5C61F25E1090074D9B8 /* OCvsRN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCvsRN.h; sourceTree = "<group>"; };
 		8018D5C71F25E1090074D9B8 /* OCvsRN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCvsRN.m; sourceTree = "<group>"; };
 		8018D5E41F25E3DE0074D9B8 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.ios.js; path = ../index.ios.js; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 				80EE17251F26DE6F009A77B6 /* QLPreviewManager.m */,
 				8018D5E41F25E3DE0074D9B8 /* index.ios.js */,
 				805130091F25FB0D00F58DFD /* package.json */,
+				800BE3941F27156400A82554 /* Podfile */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				800BE34D1F26F1B200A82554 /* Base.lproj */,
 				800BE3501F26F1B200A82554 /* Images.xcassets */,
@@ -778,6 +781,7 @@
 				80EE17491F26E880009A77B6 /* ppt.ppt in Resources */,
 				800BE3591F26F1B200A82554 /* Info.plist in Resources */,
 				8018D5E51F25E3DE0074D9B8 /* index.ios.js in Resources */,
+				800BE3951F27156400A82554 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
