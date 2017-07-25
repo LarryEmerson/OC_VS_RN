@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target "MT_RN_Study" do 
+
+pod 'LEUIMaker', :path => '../../../RemoteGits/LEUIMaker' 
+pod 'UICKeyChainStore'
+end

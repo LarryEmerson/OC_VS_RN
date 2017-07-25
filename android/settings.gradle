@@ -1,0 +1,3 @@
+rootProject.name = 'MT_RN_Study'
+
+include ':app'
