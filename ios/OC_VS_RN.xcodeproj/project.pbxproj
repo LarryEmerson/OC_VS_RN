@@ -15,12 +15,14 @@
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		288F7D1FB89106B91D302883 /* libPods-OC_VS_RN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E23B07F9FBB9B76CF2D108 /* libPods-OC_VS_RN.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		800BE3551F26F1B200A82554 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 800BE34E1F26F1B200A82554 /* LaunchScreen.xib */; };
+		800BE3561F26F1B200A82554 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800BE3501F26F1B200A82554 /* Images.xcassets */; };
+		800BE3571F26F1B200A82554 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BE3521F26F1B200A82554 /* AppDelegate.m */; };
+		800BE3581F26F1B200A82554 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BE3531F26F1B200A82554 /* main.m */; };
+		800BE3591F26F1B200A82554 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 800BE3541F26F1B200A82554 /* Info.plist */; };
 		8018D5C81F25E1090074D9B8 /* OCvsRN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8018D5C71F25E1090074D9B8 /* OCvsRN.m */; };
 		8018D5E51F25E3DE0074D9B8 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 8018D5E41F25E3DE0074D9B8 /* index.ios.js */; };
 		8018D5E81F25F9990074D9B8 /* LEMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8018D5E71F25F9990074D9B8 /* LEMusicPlayer.m */; };
@@ -32,7 +34,6 @@
 		80EE17491F26E880009A77B6 /* ppt.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 80EE17441F26E880009A77B6 /* ppt.ppt */; };
 		80EE174A1F26E880009A77B6 /* pptx.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 80EE17451F26E880009A77B6 /* pptx.pptx */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		EB64C7A94FDA18DA9B6C7864 /* libPods-MT_RN_Study.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242ED57C1430DE1C9CE36CCC /* libPods-MT_RN_Study.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,21 +221,21 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MT_RN_StudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MT_RN_StudyTests.m; sourceTree = "<group>"; };
+		01E23B07F9FBB9B76CF2D108 /* libPods-OC_VS_RN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OC_VS_RN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* MT_RN_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MT_RN_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MT_RN_Study/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MT_RN_Study/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MT_RN_Study/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MT_RN_Study/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MT_RN_Study/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* OC_VS_RN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC_VS_RN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		242ED57C1430DE1C9CE36CCC /* libPods-MT_RN_Study.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MT_RN_Study.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD8B274605799A88E9A1F97 /* Pods-OC_VS_RN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC_VS_RN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OC_VS_RN/Pods-OC_VS_RN.debug.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		800BE34F1F26F1B200A82554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		800BE3501F26F1B200A82554 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OC_VS_RN/Images.xcassets; sourceTree = "<group>"; };
+		800BE3511F26F1B200A82554 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OC_VS_RN/AppDelegate.h; sourceTree = "<group>"; };
+		800BE3521F26F1B200A82554 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OC_VS_RN/AppDelegate.m; sourceTree = "<group>"; };
+		800BE3531F26F1B200A82554 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OC_VS_RN/main.m; sourceTree = "<group>"; };
+		800BE3541F26F1B200A82554 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OC_VS_RN/Info.plist; sourceTree = "<group>"; };
 		8018D5C61F25E1090074D9B8 /* OCvsRN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCvsRN.h; sourceTree = "<group>"; };
 		8018D5C71F25E1090074D9B8 /* OCvsRN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCvsRN.m; sourceTree = "<group>"; };
 		8018D5E41F25E3DE0074D9B8 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.ios.js; path = ../index.ios.js; sourceTree = "<group>"; };
@@ -250,6 +251,7 @@
 		80EE17451F26E880009A77B6 /* pptx.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = pptx.pptx; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		CDE2DEC5BCC723A185AE953A /* Pods-MT_RN_Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MT_RN_Study.release.xcconfig"; path = "Pods/Target Support Files/Pods-MT_RN_Study/Pods-MT_RN_Study.release.xcconfig"; sourceTree = "<group>"; };
+		EE51C2631EAAC4A7BFF3A76F /* Pods-OC_VS_RN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC_VS_RN.release.xcconfig"; path = "Pods/Target Support Files/Pods-OC_VS_RN/Pods-OC_VS_RN.release.xcconfig"; sourceTree = "<group>"; };
 		F70304214594ED6E961990A9 /* Pods-MT_RN_Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MT_RN_Study.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MT_RN_Study/Pods-MT_RN_Study.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -269,7 +271,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				EB64C7A94FDA18DA9B6C7864 /* libPods-MT_RN_Study.a in Frameworks */,
+				288F7D1FB89106B91D302883 /* libPods-OC_VS_RN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,23 +320,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* MT_RN_StudyTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* MT_RN_StudyTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = MT_RN_StudyTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,12 +338,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* MT_RN_Study */ = {
+		13B07FAE1A68108700A75B9A /* OC_VS_RN */ = {
 			isa = PBXGroup;
 			children = (
 				80EE17401F26E880009A77B6 /* res */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				800BE3511F26F1B200A82554 /* AppDelegate.h */,
+				800BE3521F26F1B200A82554 /* AppDelegate.m */,
 				8018D5C61F25E1090074D9B8 /* OCvsRN.h */,
 				8018D5C71F25E1090074D9B8 /* OCvsRN.m */,
 				8018D5E61F25F9990074D9B8 /* LEMusicPlayer.h */,
@@ -368,12 +353,12 @@
 				8018D5E41F25E3DE0074D9B8 /* index.ios.js */,
 				805130091F25FB0D00F58DFD /* package.json */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				13B07FB71A68108700A75B9A /* main.m */,
+				800BE34D1F26F1B200A82554 /* Base.lproj */,
+				800BE3501F26F1B200A82554 /* Images.xcassets */,
+				800BE3531F26F1B200A82554 /* main.m */,
+				800BE3541F26F1B200A82554 /* Info.plist */,
 			);
-			name = MT_RN_Study;
+			name = OC_VS_RN;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -396,6 +381,8 @@
 			children = (
 				F70304214594ED6E961990A9 /* Pods-MT_RN_Study.debug.xcconfig */,
 				CDE2DEC5BCC723A185AE953A /* Pods-MT_RN_Study.release.xcconfig */,
+				4BD8B274605799A88E9A1F97 /* Pods-OC_VS_RN.debug.xcconfig */,
+				EE51C2631EAAC4A7BFF3A76F /* Pods-OC_VS_RN.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -416,6 +403,15 @@
 				3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		800BE34D1F26F1B200A82554 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				800BE34E1F26F1B200A82554 /* LaunchScreen.xib */,
+			);
+			name = Base.lproj;
+			path = OC_VS_RN/Base.lproj;
 			sourceTree = "<group>";
 		};
 		80EE17401F26E880009A77B6 /* res */ = {
@@ -460,9 +456,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* MT_RN_Study */,
+				13B07FAE1A68108700A75B9A /* OC_VS_RN */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MT_RN_StudyTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				501A32E2DA3C64DCEB973933 /* Pods */,
 				9950EBC9B6DCFDDE0E4DDF14 /* Frameworks */,
@@ -474,7 +469,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* MT_RN_Study.app */,
+				13B07F961A680F5B00A75B9A /* OC_VS_RN.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -483,6 +478,7 @@
 			isa = PBXGroup;
 			children = (
 				242ED57C1430DE1C9CE36CCC /* libPods-MT_RN_Study.a */,
+				01E23B07F9FBB9B76CF2D108 /* libPods-OC_VS_RN.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -490,9 +486,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* MT_RN_Study */ = {
+		13B07F861A680F5B00A75B9A /* OC_VS_RN */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MT_RN_Study" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OC_VS_RN" */;
 			buildPhases = (
 				A4D291BA06059DE370FB5575 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -506,9 +502,9 @@
 			);
 			dependencies = (
 			);
-			name = MT_RN_Study;
+			name = OC_VS_RN;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* MT_RN_Study.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* OC_VS_RN.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -525,7 +521,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MT_RN_Study" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OC_VS_RN" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -584,7 +580,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* MT_RN_Study */,
+				13B07F861A680F5B00A75B9A /* OC_VS_RN */,
 			);
 		};
 /* End PBXProject section */
@@ -772,15 +768,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800BE3561F26F1B200A82554 /* Images.xcassets in Resources */,
 				80EE17461F26E880009A77B6 /* doc.doc in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				80EE17481F26E880009A77B6 /* pdf.pdf in Resources */,
 				8051300A1F25FB0D00F58DFD /* package.json in Resources */,
 				80EE17471F26E880009A77B6 /* mp3.mp3 in Resources */,
+				800BE3551F26F1B200A82554 /* LaunchScreen.xib in Resources */,
 				80EE174A1F26E880009A77B6 /* pptx.pptx in Resources */,
 				80EE17491F26E880009A77B6 /* ppt.ppt in Resources */,
+				800BE3591F26F1B200A82554 /* Info.plist in Resources */,
 				8018D5E51F25E3DE0074D9B8 /* index.ios.js in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,7 +810,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MT_RN_Study/Pods-MT_RN_Study-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OC_VS_RN/Pods-OC_VS_RN-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		270A1E585CC72BF8DF96C68E /* [CP] Copy Pods Resources */ = {
@@ -828,7 +825,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MT_RN_Study/Pods-MT_RN_Study-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OC_VS_RN/Pods-OC_VS_RN-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A4D291BA06059DE370FB5575 /* [CP] Check Pods Manifest.lock */ = {
@@ -855,22 +852,21 @@
 			files = (
 				8018D5C81F25E1090074D9B8 /* OCvsRN.m in Sources */,
 				8018D5E81F25F9990074D9B8 /* LEMusicPlayer.m in Sources */,
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				80EE17261F26DE6F009A77B6 /* QLPreviewManager.m in Sources */,
+				800BE3581F26F1B200A82554 /* main.m in Sources */,
+				800BE3571F26F1B200A82554 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+		800BE34E1F26F1B200A82554 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13B07FB21A68108700A75B9A /* Base */,
+				800BE34F1F26F1B200A82554 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = MT_RN_Study;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -878,41 +874,41 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F70304214594ED6E961990A9 /* Pods-MT_RN_Study.debug.xcconfig */;
+			baseConfigurationReference = 4BD8B274605799A88E9A1F97 /* Pods-OC_VS_RN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 9V979UYF87;
-				INFOPLIST_FILE = MT_RN_Study/Info.plist;
+				INFOPLIST_FILE = OC_VS_RN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "larryemerson.MT-RN-Study";
-				PRODUCT_NAME = MT_RN_Study;
+				PRODUCT_BUNDLE_IDENTIFIER = "larryemerson.OC-VS-RN";
+				PRODUCT_NAME = OC_VS_RN;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDE2DEC5BCC723A185AE953A /* Pods-MT_RN_Study.release.xcconfig */;
+			baseConfigurationReference = EE51C2631EAAC4A7BFF3A76F /* Pods-OC_VS_RN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9V979UYF87;
-				INFOPLIST_FILE = MT_RN_Study/Info.plist;
+				INFOPLIST_FILE = OC_VS_RN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "larryemerson.MT-RN-Study";
-				PRODUCT_NAME = MT_RN_Study;
+				PRODUCT_BUNDLE_IDENTIFIER = "larryemerson.OC-VS-RN";
+				PRODUCT_NAME = OC_VS_RN;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -996,7 +992,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MT_RN_Study" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OC_VS_RN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1005,7 +1001,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MT_RN_Study" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OC_VS_RN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

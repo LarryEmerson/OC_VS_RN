@@ -1,6 +1,6 @@
 //
 //  QLPreviewManager.m
-//  MT_RN_Study
+//  OC_VS_RN
 //
 //  Created by emerson larry on 2017/7/25.
 //  Copyright © 2017年 Facebook. All rights reserved.

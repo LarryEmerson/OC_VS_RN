@@ -15,13 +15,10 @@ import {
     TouchableOpacity,
     Alert,
     ListView,
-} from 'react-native';
-import List from "antd-mobile/lib/list"
-const Item = List.Item;
-const Brief = Item.Brief;
+} from 'react-native'; 
 var NativeBridge = NativeModules.OCvsRN;
 const NativeModule = new NativeEventEmitter(NativeBridge);
-export default class MT_RN_Study extends Component {
+export default class OC_VS_RN extends Component {
     constructor() {
         super();
         this.state = {
@@ -165,4 +162,4 @@ const styles = StyleSheet.create({
     }
 });
 
-AppRegistry.registerComponent('MT_RN_Study', () => MT_RN_Study);
+AppRegistry.registerComponent('OC_VS_RN', () => OC_VS_RN);

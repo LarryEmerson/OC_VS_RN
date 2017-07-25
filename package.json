@@ -1,13 +1,12 @@
 {
-  "name": "MT_RN_Study",
+  "name": "OC_VS_RN",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
-  "dependencies": {
-    "antd-mobile": "^1.5.0",
+  "dependencies": { 
     "react": "16.0.0-alpha.6",
     "react-native": "0.44.0",
     "react-native-device-info": "^0.10.2"

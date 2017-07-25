@@ -31,7 +31,7 @@
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
                BuildableName = "MT_RN_Study-tvOS.app"
                BlueprintName = "MT_RN_Study-tvOS"
-               ReferencedContainer = "container:MT_RN_Study.xcodeproj">
+               ReferencedContainer = "container:OC_VS_RN.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
                BuildableName = "MT_RN_Study-tvOSTests.xctest"
                BlueprintName = "MT_RN_Study-tvOSTests"
-               ReferencedContainer = "container:MT_RN_Study.xcodeproj">
+               ReferencedContainer = "container:OC_VS_RN.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -63,7 +63,7 @@
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
                BuildableName = "MT_RN_Study-tvOSTests.xctest"
                BlueprintName = "MT_RN_Study-tvOSTests"
-               ReferencedContainer = "container:MT_RN_Study.xcodeproj">
+               ReferencedContainer = "container:OC_VS_RN.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -73,7 +73,7 @@
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
             BuildableName = "MT_RN_Study-tvOS.app"
             BlueprintName = "MT_RN_Study-tvOS"
-            ReferencedContainer = "container:MT_RN_Study.xcodeproj">
+            ReferencedContainer = "container:OC_VS_RN.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -96,7 +96,7 @@
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
             BuildableName = "MT_RN_Study-tvOS.app"
             BlueprintName = "MT_RN_Study-tvOS"
-            ReferencedContainer = "container:MT_RN_Study.xcodeproj">
+            ReferencedContainer = "container:OC_VS_RN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -115,7 +115,7 @@
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
             BuildableName = "MT_RN_Study-tvOS.app"
             BlueprintName = "MT_RN_Study-tvOS"
-            ReferencedContainer = "container:MT_RN_Study.xcodeproj">
+            ReferencedContainer = "container:OC_VS_RN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
