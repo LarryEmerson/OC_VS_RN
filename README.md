@@ -16,7 +16,7 @@ OC与ReactNative之间的通信
  
 ### OC 通信 RN
 #### OC 模块 (OCvsRN.h OCvsRN.m)
-- 首先需要创建一个继承于RCTEventEmitter的类并实现RCTBridgeModule接口，这里创建了OCvsRN.h
+- 首先需要创建一个继承于RCTEventEmitter的类并实现RCTBridgeModule接口，这里创建了OCvsRN.h、OCvsRN.m
     
 ```
 #import <Foundation/Foundation.h>
@@ -32,16 +32,16 @@ OC与ReactNative之间的通信
 @synthesize bridge = _bridge;
 RCT_EXPORT_MODULE(); 
 ```
-- 实现方法-(NSArray<NSString *> *)supportedEvents，在这个方法中，需要添加所有OC与RN互调的方法名称字符串（OC的方法名称functionName及sendEventWithName的事件名称eventName）。测试发现functionName与eventName可以共用，获取设备唯一号仅实现了fetchUUID，没有区分是functionName还是eventName，这可以说明情况。具体实现可参考：
+- 实现方法-(NSArray<NSString *> *)supportedEvents，在这个方法中，需要添加所有OC调用RN的事件名称，即sendEventWithName:(NSString *) eventName body:(id) data中的eventName。测试发现OC中声明的RN调用的方法名称functionName与eventName可以共用，获取设备唯一号仅实现了fetchUUID，没有区分是functionName还是eventName，这可以说明情况。具体实现可参考：
 
 ```
 -(NSArray<NSString *> *)supportedEvents {
   return @[
             @"fetchUUID",//拉取设备唯一号，functionName与eventName共用
-            @"ocFuncFetchDocList",//拉取文档列表
-            @"ocFuncPlayMusic",//播放音频
-            @"ocFuncPlayOrPause",//播放或暂停
-            @"ocFuncOpenDoc",//打开文档
+            //无需定义@"ocFuncFetchDocList",//拉取文档列表
+            //无需定义@"ocFuncPlayMusic",//播放音频
+            //无需定义@"ocFuncPlayOrPause",//播放或暂停
+            //无需定义@"ocFuncOpenDoc",//打开文档
             @"docListSendToRN",//文档列表从OC发送到RN
             @"musicStatusSendToRN",//音频状态从OC发送到RN
            ];

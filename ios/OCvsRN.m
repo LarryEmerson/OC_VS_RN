@@ -19,10 +19,10 @@ RCT_EXPORT_MODULE();
 -(NSArray<NSString *> *)supportedEvents {
   return @[
             @"fetchUUID",
-            @"ocFuncFetchDocList",
-            @"ocFuncPlayMusic",
-            @"ocFuncPlayOrPause",
-            @"ocFuncOpenDoc",
+//            @"ocFuncFetchDocList",
+//            @"ocFuncPlayMusic",
+//            @"ocFuncPlayOrPause",
+//            @"ocFuncOpenDoc",
             @"musicStatusSendToRN",
             @"docListSendToRN",
            ];
